@@ -61,8 +61,7 @@ function Hero({ section }: { section: CmsSection }) {
   return (
     <View style={{ aspectRatio: HERO_VIDEO_RATIO, backgroundColor: colors.black }} accessible accessibilityLabel={media?.alt || 'Film de marque NOVRA'}>
       <MediaImage uri={poster} focalX={media?.focalX} focalY={media?.focalY} style={[StyleSheet.absoluteFill, { backgroundColor: colors.black }]} />
-      <VideoView player={player} nativeControls={false} contentFit="cover" playsInline style={[StyleSheet.absoluteFill, { opacity: ready ? 1 : 0 }]} allowsPictureInPicture={false} />
-      <View style={[StyleSheet.absoluteFill, { backgroundColor: colors.black40 }]} pointerEvents="none" />
+      <VideoView player={player} nativeControls={false} contentFit="contain" playsInline style={[StyleSheet.absoluteFill, { opacity: ready ? 1 : 0 }]} allowsPictureInPicture={false} />
       <Pressable
         onPress={() => (playing ? player.pause() : player.play())}
         accessibilityRole="button"
@@ -252,7 +251,17 @@ export default function HomeScreen() {
 
   return (
     <View style={{ flex: 1, backgroundColor: colors.black }}>
+      <SafeAreaView edges={['top']} style={styles.topBar} pointerEvents="box-none">
+        <OfflineBanner />
+        <View style={styles.topRow} pointerEvents="box-none">
+          <MediaLogo />
+          <Pressable accessibilityRole="button" accessibilityLabel={fr.shop.searchA11y} hitSlop={8} onPress={() => router.push('/shop?focus=1')} style={styles.search}>
+            <Icon name="search" size={20} />
+          </Pressable>
+        </View>
+      </SafeAreaView>
       <ScrollView
+        style={{ flex: 1 }}
         contentContainerStyle={{ paddingBottom: 24 }}
         showsVerticalScrollIndicator={false}
         refreshControl={<RefreshControl refreshing={isRefetching} onRefresh={() => refetch()} tintColor={colors.white} />}
@@ -275,15 +284,6 @@ export default function HomeScreen() {
           </View>
         </View>
       </ScrollView>
-      <SafeAreaView edges={['top']} style={styles.topBar} pointerEvents="box-none">
-        <OfflineBanner />
-        <View style={styles.topRow} pointerEvents="box-none">
-          <MediaLogo />
-          <Pressable accessibilityRole="button" accessibilityLabel={fr.shop.searchA11y} hitSlop={8} onPress={() => router.push('/shop?focus=1')} style={styles.search}>
-            <Icon name="search" size={20} />
-          </Pressable>
-        </View>
-      </SafeAreaView>
     </View>
   );
 }
@@ -294,7 +294,7 @@ function MediaLogo() {
 
 const styles = StyleSheet.create({
   frame: { width: '100%', maxWidth: 720, alignSelf: 'center' },
-  topBar: { position: 'absolute', top: 0, left: 0, right: 0 },
+  topBar: { backgroundColor: colors.black },
   topRow: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', paddingHorizontal: SCREEN_PADDING, paddingVertical: 6, maxWidth: 720, width: '100%', alignSelf: 'center' },
   search: { width: 44, height: 44, borderRadius: 22, alignItems: 'center', justifyContent: 'center', backgroundColor: colors.black40, marginRight: -8 },
   catGrid: { flexDirection: 'row', flexWrap: 'wrap', gap: 8 },
