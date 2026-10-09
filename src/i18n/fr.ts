@@ -17,6 +17,8 @@ export const fr = {
     networkError: 'Connexion impossible. Vérifiez votre réseau.',
   },
   home: {
+    playVideo: 'Lire la vidéo',
+    pauseVideo: 'Mettre la vidéo en pause',
     slogan: 'Run must go on',
     brand: 'Conçu pour\nla performance',
     categoriesEyebrow: 'Nos essentiels',

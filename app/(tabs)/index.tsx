@@ -31,30 +31,47 @@ const CATEGORY_BY_LABEL: Record<string, { key: string; label: string }> = {
 function Hero({ section }: { section: CmsSection }) {
   const [reduce, setReduce] = useState(false);
   const [ready, setReady] = useState(false);
+  const [playing, setPlaying] = useState(false);
   useEffect(() => {
     AccessibilityInfo.isReduceMotionEnabled().then(setReduce).catch(() => undefined);
   }, []);
   const media = section.media[0];
   const poster = media?.poster ?? media?.uri;
-  const player = useVideoPlayer(reduce ? null : mediaUrl(HERO_VIDEO_PATH) ?? null, (p) => {
+  const player = useVideoPlayer(mediaUrl(HERO_VIDEO_PATH) ?? null, (p) => {
     p.loop = true;
     p.muted = true;
-    p.play();
   });
+  // Sur le web, play() n'agit que sur une vidéo déjà montée : on lance donc la lecture après le montage,
+  // et à nouveau dès que le flux est prêt. « Réduire les animations » : pas de lecture auto (bouton Lire).
   useEffect(() => {
-    const sub = player.addListener('statusChange', ({ status }) => {
+    if (reduce) player.pause();
+    else player.play();
+  }, [player, reduce]);
+  useEffect(() => {
+    const s1 = player.addListener('statusChange', ({ status }) => {
       setReady(status === 'readyToPlay');
-      if (status === 'readyToPlay') player.play();
+      if (status === 'readyToPlay' && !reduce) player.play();
     });
-    return () => sub.remove();
-  }, [player]);
+    const s2 = player.addListener('playingChange', ({ isPlaying }) => setPlaying(isPlaying));
+    return () => {
+      s1.remove();
+      s2.remove();
+    };
+  }, [player, reduce]);
   return (
     <View style={{ aspectRatio: HERO_VIDEO_RATIO, backgroundColor: colors.black }} accessible accessibilityLabel={media?.alt || 'Film de marque NOVRA'}>
       <MediaImage uri={poster} focalX={media?.focalX} focalY={media?.focalY} style={[StyleSheet.absoluteFill, { backgroundColor: colors.black }]} />
-      {!reduce ? (
-        <VideoView player={player} nativeControls={false} contentFit="cover" style={[StyleSheet.absoluteFill, { opacity: ready ? 1 : 0 }]} allowsPictureInPicture={false} />
-      ) : null}
+      <VideoView player={player} nativeControls={false} contentFit="cover" playsInline style={[StyleSheet.absoluteFill, { opacity: ready ? 1 : 0 }]} allowsPictureInPicture={false} />
       <View style={[StyleSheet.absoluteFill, { backgroundColor: colors.black40 }]} pointerEvents="none" />
+      <Pressable
+        onPress={() => (playing ? player.pause() : player.play())}
+        accessibilityRole="button"
+        accessibilityLabel={playing ? fr.home.pauseVideo : fr.home.playVideo}
+        hitSlop={8}
+        style={{ position: 'absolute', right: 12, bottom: 12, width: 40, height: 40, borderRadius: 20, alignItems: 'center', justifyContent: 'center', backgroundColor: colors.black40 }}
+      >
+        <Icon name={playing ? 'pause' : 'play'} size={18} />
+      </Pressable>
     </View>
   );
 }
