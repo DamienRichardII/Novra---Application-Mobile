@@ -43,4 +43,6 @@ export const COUNTRIES = [
 
 /** Vidéo de marque de l'accueil (fichier du site, hors base). */
 export const HERO_VIDEO_PATH = 'assets/web/video/novra-hero.mp4';
+/** Rapport largeur/hauteur du film d'accueil (1280×732) : le bloc hero épouse la vidéo, sans bandes noires. */
+export const HERO_VIDEO_RATIO = 1280 / 732;
 export const HERO_POSTER_PATH = 'assets/web/video/novra-hero-poster.jpg';

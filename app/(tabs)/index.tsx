@@ -15,7 +15,7 @@ import { OfflineBanner } from '@/components/OfflineBanner';
 import { Skeleton } from '@/components/Skeleton';
 import { useHome } from '@/hooks/queries';
 import { ctaToRoute, type CmsSection } from '@/api/cms';
-import { HERO_VIDEO_PATH, config } from '@/lib/config';
+import { HERO_VIDEO_PATH, HERO_VIDEO_RATIO, config } from '@/lib/config';
 import { mediaUrl } from '@/lib/media';
 import { fr } from '@/i18n/fr';
 
@@ -29,7 +29,6 @@ const CATEGORY_BY_LABEL: Record<string, { key: string; label: string }> = {
 };
 
 function Hero({ section }: { section: CmsSection }) {
-  const { height } = useWindowDimensions();
   const [reduce, setReduce] = useState(false);
   const [ready, setReady] = useState(false);
   useEffect(() => {
@@ -43,15 +42,17 @@ function Hero({ section }: { section: CmsSection }) {
     p.play();
   });
   useEffect(() => {
-    const sub = player.addListener('statusChange', ({ status }) => setReady(status === 'readyToPlay'));
+    const sub = player.addListener('statusChange', ({ status }) => {
+      setReady(status === 'readyToPlay');
+      if (status === 'readyToPlay') player.play();
+    });
     return () => sub.remove();
   }, [player]);
-  const h = Math.min(Math.round(height * 0.86), 820);
   return (
-    <View style={{ height: h, backgroundColor: colors.black }} accessible accessibilityLabel={media?.alt || 'Film de marque NOVRA'}>
-      <MediaImage uri={poster} focalX={media?.focalX} focalY={media?.focalY} contentFit="contain" style={[StyleSheet.absoluteFill, { backgroundColor: colors.black }]} />
+    <View style={{ aspectRatio: HERO_VIDEO_RATIO, backgroundColor: colors.black }} accessible accessibilityLabel={media?.alt || 'Film de marque NOVRA'}>
+      <MediaImage uri={poster} focalX={media?.focalX} focalY={media?.focalY} style={[StyleSheet.absoluteFill, { backgroundColor: colors.black }]} />
       {!reduce ? (
-        <VideoView player={player} nativeControls={false} contentFit="contain" style={[StyleSheet.absoluteFill, { opacity: ready ? 1 : 0 }]} allowsPictureInPicture={false} />
+        <VideoView player={player} nativeControls={false} contentFit="cover" style={[StyleSheet.absoluteFill, { opacity: ready ? 1 : 0 }]} allowsPictureInPicture={false} />
       ) : null}
       <View style={[StyleSheet.absoluteFill, { backgroundColor: colors.black40 }]} pointerEvents="none" />
     </View>
