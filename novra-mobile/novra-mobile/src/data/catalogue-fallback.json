@@ -1,0 +1,1408 @@
+{
+ "generatedAt": "2026-10-09T11:49:23.149Z",
+ "products": [
+  {
+   "id": "f759dc1a-4f1b-477a-b1fa-e6a08476055d",
+   "slug": "polo-tech",
+   "name": "BIDARIE",
+   "category": "polos",
+   "gender": "unisexe",
+   "price": 45.99,
+   "description": "Un polo pensé pour la performance et porté partout. Maille jacquard légère, col structuré qui ne se déforme pas et signature NOVRA brodée sur la poitrine. Disponible en trois coloris.",
+   "details": [
+    "Maille jacquard légère et respirante",
+    "Col structuré tenue durable",
+    "Signature NOVRA poitrine",
+    "Coupe régulière unisexe"
+   ],
+   "images": [
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/09/1789490768917-whatsapp-image-2026-09-15-at-6.43.10-pm.jpeg",
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/09/1789479493946-2.jpg",
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/09/1789475319139-3.jpg",
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/09/1789475327906-4.jpg"
+   ],
+   "colors": [
+    "Blanc",
+    "Beige",
+    "Noir"
+   ],
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "badge": "Nouveau",
+   "featured": true,
+   "sort_order": 2,
+   "track_inventory": true,
+   "focal_x": 50,
+   "focal_y": 50,
+   "created_at": "2026-09-01T09:21:54.826017+00:00",
+   "product_variants": [
+    {
+     "color": "Blanc",
+     "size": "S",
+     "stock": 0
+    },
+    {
+     "color": "Blanc",
+     "size": "M",
+     "stock": 0
+    },
+    {
+     "color": "Beige",
+     "size": "XS",
+     "stock": 0
+    },
+    {
+     "color": "Beige",
+     "size": "S",
+     "stock": 0
+    },
+    {
+     "color": "Beige",
+     "size": "L",
+     "stock": 0
+    },
+    {
+     "color": "Beige",
+     "size": "XL",
+     "stock": 0
+    },
+    {
+     "color": "Beige",
+     "size": "XXL",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "XS",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "S",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "L",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "XL",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "XXL",
+     "stock": 0
+    },
+    {
+     "color": "Blanc",
+     "size": "XXL",
+     "stock": 20
+    },
+    {
+     "color": "Blanc",
+     "size": "XS",
+     "stock": 1
+    },
+    {
+     "color": "Blanc",
+     "size": "XL",
+     "stock": 1
+    },
+    {
+     "color": "Beige",
+     "size": "M",
+     "stock": 2
+    },
+    {
+     "color": "Noir",
+     "size": "M",
+     "stock": 0
+    },
+    {
+     "color": "Blanc",
+     "size": "L",
+     "stock": 1
+    }
+   ]
+  },
+  {
+   "id": "80ea6fd2-a877-4df8-8427-228bc793a02d",
+   "slug": "casquette-performance",
+   "name": "Casquette Performance",
+   "category": "accessoires",
+   "gender": "unisexe",
+   "price": 30,
+   "description": "Casquette running ultra légère à panneaux mesh. Bandeau intérieur absorbant, visière souple et fermeture arrière réglable. Quatre coloris, une seule exigence.",
+   "details": [
+    "Panneaux mesh haute ventilation",
+    "Bandeau intérieur absorbant",
+    "Visière souple pliable",
+    "Fermeture arrière réglable"
+   ],
+   "images": [
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/09/1789482385228-chatgpt-image-15-sept.-2026-16-25-54.png",
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/09/1789477549362-6.jpg",
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/09/1789483379709-chatgpt-image-15-sept.-2026-13-37-20.png",
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/09/1789481523042-8.jpg",
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/09/1789483704326-chatgpt-image-15-sept.-2026-16-47-31.png",
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/09/1789481538202-7.jpg",
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/09/1789483749393-chatgpt-image-15-sept.-2026-13-37-47.png",
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/09/1789481529075-9.jpg",
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/09/1789483392674-chatgpt-image-15-sept.-2026-13-37-37.png"
+   ],
+   "colors": [
+    "Noir",
+    "Gris",
+    "Kaki",
+    "Orange"
+   ],
+   "sizes": [
+    "TU"
+   ],
+   "badge": null,
+   "featured": true,
+   "sort_order": 3,
+   "track_inventory": true,
+   "focal_x": 50,
+   "focal_y": 50,
+   "created_at": "2026-09-01T09:21:54.826017+00:00",
+   "product_variants": [
+    {
+     "color": "Noir",
+     "size": "TU",
+     "stock": 0
+    },
+    {
+     "color": "Gris",
+     "size": "TU",
+     "stock": 0
+    },
+    {
+     "color": "Kaki",
+     "size": "TU",
+     "stock": 0
+    },
+    {
+     "color": "Orange",
+     "size": "TU",
+     "stock": 0
+    }
+   ]
+  },
+  {
+   "id": "39dfcca2-ef43-4fec-9a9f-cddba31b64e8",
+   "slug": "veste-coupe-vent-noire",
+   "name": "Boetto",
+   "category": "vestes",
+   "gender": "homme",
+   "price": 59.99,
+   "description": "Coupe-vent technique à capuche ajustée. Tissu ripstop ultra léger, protection contre le vent et la pluie fine, empiècements ventilés dans le dos. La pièce qui supprime les excuses.",
+   "details": [
+    "Tissu ripstop ultra léger",
+    "Déperlant, coupe-vent",
+    "Capuche ajustable",
+    "Empiècements ventilés dos",
+    "Détails réfléchissants"
+   ],
+   "images": [
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/09/1789494144640-179158.png",
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/09/1789495648077-179187.png",
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/09/1789495565065-179174.png",
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/09/1789495755130-179188.png"
+   ],
+   "colors": [
+    "Noir"
+   ],
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "badge": "Nouveau",
+   "featured": true,
+   "sort_order": 5,
+   "track_inventory": true,
+   "focal_x": 50,
+   "focal_y": 50,
+   "created_at": "2026-09-01T09:21:54.826017+00:00",
+   "product_variants": [
+    {
+     "color": "Noir",
+     "size": "XS",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "S",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "M",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "L",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "XL",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "XXL",
+     "stock": 0
+    }
+   ]
+  },
+  {
+   "id": "90aa6249-f708-4ab4-8ad3-32a1c304996d",
+   "slug": "ensemble-jogging-rose",
+   "name": "Ensemble Jogging corail",
+   "category": "ensembles",
+   "gender": "femme",
+   "price": 89.99,
+   "description": "Ensemble veste et pantalon en tissu léger bi-matière. Capuche, taille élastiquée et coupe fluide. Une pièce d'échauffement pensée pour être portée bien au-delà de la séance.",
+   "details": [
+    "Ensemble veste + pantalon",
+    "Tissu léger bi-matière",
+    "Capuche et taille élastiquée",
+    "Coupe fluide"
+   ],
+   "images": [
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/10/1791187710204-copie-de-logo-crossfit-final-flocage.pdf-21-x-29.7-cm-10-x-10-cm-.png",
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/10/1791188222501-19.png",
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/10/1791188238867-20.png"
+   ],
+   "colors": [
+    "Rose"
+   ],
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "badge": "Nouveau",
+   "featured": true,
+   "sort_order": 10,
+   "track_inventory": true,
+   "focal_x": 50,
+   "focal_y": 50,
+   "created_at": "2026-09-01T09:21:54.826017+00:00",
+   "product_variants": [
+    {
+     "color": "Rose",
+     "size": "XS",
+     "stock": 0
+    },
+    {
+     "color": "Rose",
+     "size": "S",
+     "stock": 0
+    },
+    {
+     "color": "Rose",
+     "size": "M",
+     "stock": 0
+    },
+    {
+     "color": "Rose",
+     "size": "L",
+     "stock": 0
+    },
+    {
+     "color": "Rose",
+     "size": "XL",
+     "stock": 0
+    },
+    {
+     "color": "Rose",
+     "size": "XXL",
+     "stock": 0
+    }
+   ]
+  },
+  {
+   "id": "201f19c9-99bb-4454-89c2-2adec12b5a51",
+   "slug": "veste-coupe-vent",
+   "name": "Veste coupe-vent",
+   "category": "vestes",
+   "gender": "unisexe",
+   "price": 99.99,
+   "description": "veste coupe-vent a capuche integree avec cordon de serrage zip central\n2 poches laterales zippees longues avec poignets elastiques systeme de ventilation.",
+   "details": {
+    "care": null,
+    "composition": null,
+    "technicalDetails": []
+   },
+   "images": [
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/09/1789490172925-fiche-technique-veste-sport-modifiable.pptx-2-.png",
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/09/1788922638810-172914.png",
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/09/1788922642488-172915.png"
+   ],
+   "colors": [
+    "Noir"
+   ],
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "badge": null,
+   "featured": false,
+   "sort_order": 11,
+   "track_inventory": true,
+   "focal_x": 50,
+   "focal_y": 50,
+   "created_at": "2026-09-09T02:58:16.029765+00:00",
+   "product_variants": [
+    {
+     "color": "Noir",
+     "size": "XS",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "S",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "M",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "L",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "XL",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "XXL",
+     "stock": 0
+    }
+   ]
+  },
+  {
+   "id": "d2065adc-85f4-47d2-b018-658c6897fa5f",
+   "slug": "banane-4",
+   "name": "Banane",
+   "category": "accessoires",
+   "gender": "unisexe",
+   "price": 35,
+   "description": null,
+   "details": {
+    "care": null,
+    "composition": null,
+    "technicalDetails": []
+   },
+   "images": [
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/09/1789489858035-fiche-technique-veste-sport-modifiable.pptx-1-.png",
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/09/1789164605684-175906.jpg",
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/09/1789164401042-175904.png"
+   ],
+   "colors": [
+    "Noir"
+   ],
+   "sizes": [
+    "TU"
+   ],
+   "badge": null,
+   "featured": false,
+   "sort_order": 15,
+   "track_inventory": true,
+   "focal_x": 50,
+   "focal_y": 50,
+   "created_at": "2026-09-11T17:37:45.060985+00:00",
+   "product_variants": [
+    {
+     "color": "Noir",
+     "size": "TU",
+     "stock": 0
+    }
+   ]
+  },
+  {
+   "id": "aa1c5403-c477-465d-8098-92e135eb7c84",
+   "slug": "bombers",
+   "name": "BOMBERS",
+   "category": "vestes",
+   "gender": "homme",
+   "price": 99,
+   "description": "Veste bomber  - Manches droites. Doublure intérieure orange. Poche plaquée sur manche droite. \n\nPoches avant zippées.Tissu principal : 100% polyamide Oxford. 112 g/m². Doublure : 100% polyester Taffetas 230T. 70 g/m². Rembourrage 100% polyester. 200 g/m² (corps) et 160 g/m² (manches",
+   "details": {
+    "care": null,
+    "composition": null,
+    "technicalDetails": [
+     "Tissu principal : 100% polyamide Oxford. 112 g/m². Doublure : 100% polyester Taffetas 230T. 70 g/m². Rembourrage 100% polyester. 200 g/m² (corps) et 160 g/m²"
+    ]
+   },
+   "images": [
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/09/1789224839749-chatgpt-image-12-sept.-2026-16-48-34.png",
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/09/1789224848838-chatgpt-image-12-sept.-2026-16-48-01.png",
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/09/1789224858315-chatgpt-image-12-sept.-2026-16-47-29.png",
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/09/1789224862723-chatgpt-image-12-sept.-2026-16-47-36.png"
+   ],
+   "colors": [
+    "Noir"
+   ],
+   "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "3XL",
+    "4XL",
+    "5XL"
+   ],
+   "badge": null,
+   "featured": false,
+   "sort_order": 17,
+   "track_inventory": true,
+   "focal_x": 50,
+   "focal_y": 50,
+   "created_at": "2026-09-12T14:55:10.993548+00:00",
+   "product_variants": [
+    {
+     "color": "Noir",
+     "size": "S",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "M",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "L",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "XL",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "XXL",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "3XL",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "4XL",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "5XL",
+     "stock": 0
+    }
+   ]
+  },
+  {
+   "id": "b9315e04-a6f7-409c-ae96-b956e578eb3a",
+   "slug": "novra",
+   "name": "NOVRA",
+   "category": "ensembles",
+   "gender": "unisexe",
+   "price": 110,
+   "description": "Parfaite au quotidien, cette veste en polyester résistant présente une coupe décontractée sur toute la longueur.",
+   "details": {
+    "care": null,
+    "composition": null,
+    "technicalDetails": []
+   },
+   "images": [
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/09/1789485313366-mannequin-survettement-reflechissant.png",
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/09/1789485318861-dos.png"
+   ],
+   "colors": [
+    "Noir"
+   ],
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "badge": null,
+   "featured": false,
+   "sort_order": 20,
+   "track_inventory": true,
+   "focal_x": 50,
+   "focal_y": 50,
+   "created_at": "2026-09-15T15:16:59.295546+00:00",
+   "product_variants": [
+    {
+     "color": "Noir",
+     "size": "XS",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "S",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "M",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "L",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "XL",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "XXL",
+     "stock": 0
+    }
+   ]
+  },
+  {
+   "id": "2ee67dd0-83a1-49c7-ac63-82b44de31318",
+   "slug": "bob-nylon",
+   "name": "Bob nylon",
+   "category": "accessoires",
+   "gender": "homme",
+   "price": 30,
+   "description": "nylon  - Déperlant. Protection UV - UPF50+. Anneaux élastiqués. Cordon extérieur réglable. Tour de tête : S/M 58cm",
+   "details": {
+    "care": null,
+    "composition": null,
+    "technicalDetails": []
+   },
+   "images": [
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/09/1789673009605-181245.png",
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/09/1789672760309-181216.png"
+   ],
+   "colors": [
+    "Noir"
+   ],
+   "sizes": [
+    "S",
+    "M"
+   ],
+   "badge": null,
+   "featured": false,
+   "sort_order": 21,
+   "track_inventory": true,
+   "focal_x": 50,
+   "focal_y": 50,
+   "created_at": "2026-09-15T22:19:44.218434+00:00",
+   "product_variants": [
+    {
+     "color": "Noir",
+     "size": "S",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "M",
+     "stock": 0
+    }
+   ]
+  },
+  {
+   "id": "e8897e84-1450-4510-b2d2-5616646aec45",
+   "slug": "legging",
+   "name": "Legging",
+   "category": "pantalons",
+   "gender": "femme",
+   "price": 39.99,
+   "description": "Legging femme  - Extensible dans les quatre sens pour un maximum de mouvement. Cordon réglable à la taille. Poche arrière zippée. Protection UV UPF 30+. Coupe ajustée et, ergonomique. Tissu absorbant et à séchage rapide. Deux poches latérales (dont une pour téléphone). Poche arrière zippée.",
+   "details": {
+    "care": null,
+    "composition": null,
+    "technicalDetails": [
+     "80% polyester recyclé/20% élasthanne."
+    ]
+   },
+   "images": [
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/09/1789554328461-chatgpt-image-16-sept.-2026-12-22-30.png",
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/09/1789554337861-chatgpt-image-16-sept.-2026-12-23-15.png"
+   ],
+   "colors": [
+    "Noir"
+   ],
+   "sizes": [
+    "S",
+    "M",
+    "L"
+   ],
+   "badge": null,
+   "featured": false,
+   "sort_order": 22,
+   "track_inventory": true,
+   "focal_x": 50,
+   "focal_y": 50,
+   "created_at": "2026-09-16T10:28:14.853795+00:00",
+   "product_variants": [
+    {
+     "color": "Noir",
+     "size": "S",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "M",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "L",
+     "stock": 0
+    }
+   ]
+  },
+  {
+   "id": "b8e063c1-2542-4aaf-8055-b2c301630666",
+   "slug": "dagastan",
+   "name": "DAGASTAN",
+   "category": "t-shirts",
+   "gender": "homme",
+   "price": 29.99,
+   "description": "TEE SHIRT OVERSIZE COL ROND COTTON MANCHES COURTES 240 GR/M² 100% Coton\nJersey 240 Gr./m²",
+   "details": {
+    "care": null,
+    "composition": null,
+    "technicalDetails": []
+   },
+   "images": [
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/09/1789589300197-180373.png",
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/09/1789590061993-180399.png",
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/09/1789590071956-180400.png"
+   ],
+   "colors": [
+    "Noir"
+   ],
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "badge": null,
+   "featured": false,
+   "sort_order": 24,
+   "track_inventory": true,
+   "focal_x": 50,
+   "focal_y": 50,
+   "created_at": "2026-09-16T18:42:01.207734+00:00",
+   "product_variants": [
+    {
+     "color": "Noir",
+     "size": "XS",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "S",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "M",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "L",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "XL",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "XXL",
+     "stock": 0
+    }
+   ]
+  },
+  {
+   "id": "877f5ee8-ae81-475e-88b2-af054e6df111",
+   "slug": "relax-pants-2",
+   "name": "RELAX PANTS",
+   "category": "pantalons",
+   "gender": "unisexe",
+   "price": 35.99,
+   "description": "PANTALON DE JOGGING MOLLETON Coupe Large\n300 GSM 50% Coton 50% Polyester\nLogo NOVRA en silicone 3D embossé",
+   "details": {
+    "care": null,
+    "composition": null,
+    "technicalDetails": []
+   },
+   "images": [
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/09/1789590761554-180200.png",
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/09/1789590765673-180096.png",
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/09/1789590772254-180095.png"
+   ],
+   "colors": [
+    "Noir",
+    "Gris"
+   ],
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "badge": null,
+   "featured": false,
+   "sort_order": 26,
+   "track_inventory": false,
+   "focal_x": 50,
+   "focal_y": 50,
+   "created_at": "2026-09-16T20:33:26.866449+00:00",
+   "product_variants": [
+    {
+     "color": "Noir",
+     "size": "XS",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "S",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "M",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "L",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "XL",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "XXL",
+     "stock": 0
+    },
+    {
+     "color": "Gris",
+     "size": "XS",
+     "stock": 0
+    },
+    {
+     "color": "Gris",
+     "size": "S",
+     "stock": 0
+    },
+    {
+     "color": "Gris",
+     "size": "M",
+     "stock": 0
+    },
+    {
+     "color": "Gris",
+     "size": "L",
+     "stock": 0
+    },
+    {
+     "color": "Gris",
+     "size": "XL",
+     "stock": 0
+    },
+    {
+     "color": "Gris",
+     "size": "XXL",
+     "stock": 0
+    }
+   ]
+  },
+  {
+   "id": "b8815dfa-b65c-4b79-a80e-eee6a9218b2c",
+   "slug": "core-hoodies-black",
+   "name": "CORE HOODIES BLACK",
+   "category": "vestes",
+   "gender": "homme",
+   "price": 49.99,
+   "description": "SWEAT SHIRT A CAPUCHE, 100% coton, 450 GR/M2, AVEC POCHES",
+   "details": {
+    "care": null,
+    "composition": null,
+    "technicalDetails": []
+   },
+   "images": [
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/09/1789593434180-180489.png",
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/09/1789593445605-180487.png",
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/09/1789593439934-180488.png"
+   ],
+   "colors": [
+    "Noir"
+   ],
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "badge": null,
+   "featured": false,
+   "sort_order": 27,
+   "track_inventory": false,
+   "focal_x": 50,
+   "focal_y": 50,
+   "created_at": "2026-09-16T21:17:52.047874+00:00",
+   "product_variants": [
+    {
+     "color": "Noir",
+     "size": "XS",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "S",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "M",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "L",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "XL",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "XXL",
+     "stock": 0
+    }
+   ]
+  },
+  {
+   "id": "bbb5b153-94ba-4d7c-bae9-7b7253148f29",
+   "slug": "tee-shirt-technoque",
+   "name": "Tee-shirt technoque",
+   "category": "t-shirts",
+   "gender": "homme",
+   "price": 35.99,
+   "description": null,
+   "details": {
+    "care": null,
+    "composition": null,
+    "technicalDetails": []
+   },
+   "images": [
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/09/1789621726886-180634.png",
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/09/1789621728609-176099.png",
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/09/1789621729785-176098.png",
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/09/1789621731719-176100.png",
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/09/1789621734851-176102.png",
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/09/1789621733259-176101.png"
+   ],
+   "colors": [
+    "Noir",
+    "Beige"
+   ],
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "badge": null,
+   "featured": false,
+   "sort_order": 28,
+   "track_inventory": false,
+   "focal_x": 50,
+   "focal_y": 50,
+   "created_at": "2026-09-17T05:09:15.739576+00:00",
+   "product_variants": [
+    {
+     "color": "Noir",
+     "size": "XS",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "S",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "M",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "L",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "XL",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "XXL",
+     "stock": 0
+    },
+    {
+     "color": "Beige",
+     "size": "XS",
+     "stock": 0
+    },
+    {
+     "color": "Beige",
+     "size": "S",
+     "stock": 0
+    },
+    {
+     "color": "Beige",
+     "size": "M",
+     "stock": 0
+    },
+    {
+     "color": "Beige",
+     "size": "L",
+     "stock": 0
+    },
+    {
+     "color": "Beige",
+     "size": "XL",
+     "stock": 0
+    },
+    {
+     "color": "Beige",
+     "size": "XXL",
+     "stock": 0
+    }
+   ]
+  },
+  {
+   "id": "19b51116-3cac-425a-9f35-1520f251ed84",
+   "slug": "coupe-vent",
+   "name": "Coupe vent",
+   "category": "vestes",
+   "gender": "unisexe",
+   "price": 55,
+   "description": "Coupe-vent de sport  - Coupe-vent léger. Partiellement produit avec des fibres recyclées. Coupe classique. Intérieur filet respirant. Bords côte à la taille et aux poignets. Grand zip. Capuche ajustable.",
+   "details": {
+    "care": null,
+    "composition": "63% polyester/37% polyester recyclé",
+    "technicalDetails": []
+   },
+   "images": [
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/10/1791486272412-199318.jpg",
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/10/1791486272955-199319.jpg",
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/10/1791486273340-199317.jpg",
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/10/1791486273723-199316.jpg"
+   ],
+   "colors": [
+    "Noir"
+   ],
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "3XL"
+   ],
+   "badge": null,
+   "featured": false,
+   "sort_order": 29,
+   "track_inventory": false,
+   "focal_x": 50,
+   "focal_y": 50,
+   "created_at": "2026-10-08T19:05:44.224216+00:00",
+   "product_variants": [
+    {
+     "color": "Noir",
+     "size": "XS",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "S",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "M",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "L",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "XL",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "XXL",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "3XL",
+     "stock": 0
+    }
+   ]
+  },
+  {
+   "id": "a4f4479d-f574-4f66-9c66-235fd2d445ca",
+   "slug": "tracksuits",
+   "name": "TRACKSUITS",
+   "category": "ensembles",
+   "gender": "homme",
+   "price": 79,
+   "description": "coupes modernes, des matières techniques légères et respirantes, et une liberté de mouvement optimale pour vous accompagner au quotidien, à l'entraînement comme en ville.",
+   "details": {
+    "care": null,
+    "composition": "90% NYLON 10% SPANDEX",
+    "technicalDetails": [
+     "coupes modernes, des matières techniques légères et respirantes, et une liberté de mouvement optimale pour vous accompagner au quotidien, à l'entraînement comme en ville."
+    ]
+   },
+   "images": [
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/10/1791486501122-199313.jpg",
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/10/1791486501832-199312.jpg",
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/10/1791486502815-199310.jpg"
+   ],
+   "colors": [
+    "Noir",
+    "Gris",
+    "Kaki"
+   ],
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "badge": null,
+   "featured": false,
+   "sort_order": 30,
+   "track_inventory": false,
+   "focal_x": 50,
+   "focal_y": 50,
+   "created_at": "2026-10-08T19:12:47.263707+00:00",
+   "product_variants": [
+    {
+     "color": "Noir",
+     "size": "XS",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "S",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "M",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "L",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "XL",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "XXL",
+     "stock": 0
+    },
+    {
+     "color": "Gris",
+     "size": "XS",
+     "stock": 0
+    },
+    {
+     "color": "Gris",
+     "size": "S",
+     "stock": 0
+    },
+    {
+     "color": "Gris",
+     "size": "M",
+     "stock": 0
+    },
+    {
+     "color": "Gris",
+     "size": "L",
+     "stock": 0
+    },
+    {
+     "color": "Gris",
+     "size": "XL",
+     "stock": 0
+    },
+    {
+     "color": "Gris",
+     "size": "XXL",
+     "stock": 0
+    },
+    {
+     "color": "Kaki",
+     "size": "XS",
+     "stock": 0
+    },
+    {
+     "color": "Kaki",
+     "size": "S",
+     "stock": 0
+    },
+    {
+     "color": "Kaki",
+     "size": "M",
+     "stock": 0
+    },
+    {
+     "color": "Kaki",
+     "size": "L",
+     "stock": 0
+    },
+    {
+     "color": "Kaki",
+     "size": "XL",
+     "stock": 0
+    },
+    {
+     "color": "Kaki",
+     "size": "XXL",
+     "stock": 0
+    }
+   ]
+  },
+  {
+   "id": "b8c8c885-ffa7-48b9-838b-19109ae56462",
+   "slug": "short",
+   "name": "Short",
+   "category": "accessoires",
+   "gender": "homme",
+   "price": 35,
+   "description": "Short en microfibre homme  - Extensible dans les 4 sens. Taille élastiquée en tissu avec cordon de serrage intérieur. Poches latérales zippées. Fentes latérales. Sous-short intégré. Poche téléphone. Propriétés d'évacuation de l'humidité.",
+   "details": {
+    "care": null,
+    "composition": null,
+    "technicalDetails": [
+     "Extérieur : 90% polyester/10% élasthanne. 180g/m². Intérieur : 88% polyester/12% élasthanne. 115g/m²"
+    ]
+   },
+   "images": [
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/10/1791488674554-199351.png",
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/10/1791488669593-199314.jpg"
+   ],
+   "colors": [
+    "Noir"
+   ],
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "3XL"
+   ],
+   "badge": null,
+   "featured": false,
+   "sort_order": 32,
+   "track_inventory": false,
+   "focal_x": 50,
+   "focal_y": 50,
+   "created_at": "2026-10-08T19:45:17.164563+00:00",
+   "product_variants": [
+    {
+     "color": "Noir",
+     "size": "XS",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "S",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "M",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "L",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "XL",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "XXL",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "3XL",
+     "stock": 0
+    }
+   ]
+  },
+  {
+   "id": "c431d06d-0004-48bf-889e-f82464998ba9",
+   "slug": "bomber",
+   "name": "Bomber",
+   "category": "vestes",
+   "gender": "homme",
+   "price": 89,
+   "description": "Veste bomber  - Manches droites. Doublure intérieure orange. Poche plaquée sur manche droite. \n\nPoches avant zippées.Tissu principal : 100% polyamide Oxford. 112 g/m². Doublure : 100% polyester Taffetas 230T. 70 g/m². Rembourrage 100% polyester. 200 g/m² (corps) et 160 g/m² (manches",
+   "details": {
+    "care": null,
+    "composition": null,
+    "technicalDetails": [
+     "Tissu principal : 100% polyamide Oxford. 112 g/m². Doublure : 100% polyester Taffetas 230T. 70 g/m². Rembourrage 100% polyester. 200 g/m² (corps) et 160 g/m² (manches)"
+    ]
+   },
+   "images": [
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/10/1791490721287-199376.png",
+    "https://luvydsusnupkxvjfxsug.supabase.co/storage/v1/object/public/novra-media/campaigns/2026/10/1791490720121-199375.png"
+   ],
+   "colors": [
+    "Noir"
+   ],
+   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "3XL",
+    "4XL"
+   ],
+   "badge": null,
+   "featured": false,
+   "sort_order": 33,
+   "track_inventory": false,
+   "focal_x": 50,
+   "focal_y": 50,
+   "created_at": "2026-10-08T20:19:19.649368+00:00",
+   "product_variants": [
+    {
+     "color": "Noir",
+     "size": "XS",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "S",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "M",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "L",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "XL",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "XXL",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "3XL",
+     "stock": 0
+    },
+    {
+     "color": "Noir",
+     "size": "4XL",
+     "stock": 0
+    }
+   ]
+  }
+ ]
+}

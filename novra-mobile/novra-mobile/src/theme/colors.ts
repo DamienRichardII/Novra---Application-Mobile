@@ -1,0 +1,27 @@
+export const colors = {
+  black: '#0a0a0a',
+  blackSoft: '#121212',
+  white: '#ffffff',
+  grey: {
+    50: '#f6f6f6',
+    100: '#eeeeee',
+    200: '#e2e2e2',
+    300: '#c9c9c9',
+    400: '#9a9a9a',
+    500: '#6f6f6f',
+    600: '#4a4a4a',
+    700: '#2c2c2c',
+  },
+  line: '#e2e2e2',
+  lineDark: 'rgba(255,255,255,0.14)',
+  white70: 'rgba(255,255,255,0.7)',
+  white45: 'rgba(255,255,255,0.45)',
+  white15: 'rgba(255,255,255,0.15)',
+  white08: 'rgba(255,255,255,0.08)',
+  black90: 'rgba(10,10,10,0.9)',
+  black78: 'rgba(10,10,10,0.78)',
+  black70: 'rgba(10,10,10,0.7)',
+  black40: 'rgba(10,10,10,0.4)',
+  /** Seule exception tolérée à la règle noir/blanc/gris : message d'erreur de formulaire. */
+  error: '#e5484d',
+} as const;
